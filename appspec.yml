@@ -9,6 +9,8 @@ files:
     destination: /var/www/html/
   - source: /skil.html
     destination: /var/www/html/
+  - source: /skil2.html
+    destination: /var/www/html/
 hooks:
   BeforeInstall:
     - location: scripts/install_dependencies
